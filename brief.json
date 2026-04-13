@@ -1,0 +1,267 @@
+{
+  "run_id": "run-1776040317653",
+  "job_index": 1,
+  "params": {
+    "owner_user_id": "user-1774822953462",
+    "owner_username": "admin",
+    "owner_display_name": "Administrator",
+    "count": 1,
+    "archetype": "tool",
+    "market": "France",
+    "language": "fr",
+    "country": "FR",
+    "brief": "Un outil essentiel pour les électriciens, ingénieurs et bricoleurs avertis naviguant dans les complexités des…",
+    "notes": "Comparez instantanément les normes électriques entre différents pays (France, UE, US, etc.) et accédez aux réglementations clés pour vos projets d'installation ou de rénovation.\nSe concentre sur la conversion des codes et réglementations électriques. Idéal pour les professionnels travaillant à l'international ou sur des projets à forte conformité. Un aspect 'calculateur' pour les valeurs et 'outil' pour l'accès à l'information.",
+    "import_notes": "",
+    "growth_job_id": "",
+    "growth_slug": "",
+    "growth_kind": "",
+    "mode": "production",
+    "run_kind": "generated_batch",
+    "publish_target": "render",
+    "requested_publish_target": "render",
+    "railway_project_id_override": "",
+    "railway_environment_id_override": "",
+    "railway_service_id_override": "",
+    "railway_service_name_override": "",
+    "github_repo_private": true,
+    "stage_models": {
+      "ideation": "google/gemini-2.5-flash-lite:nitro",
+      "spec": "google/gemini-2.5-flash",
+      "copy": "google/gemini-2.5-flash-lite:nitro",
+      "qa": "anthropic/claude-haiku-4.5",
+      "escalation": "anthropic/claude-sonnet-4.6"
+    },
+    "archetype_display": "tool",
+    "archetype_mix": [
+      "tool"
+    ],
+    "forced_design_theme": "blueprint-wire",
+    "forced_structure_preset": "metric-grid",
+    "site_idea_title": "Convertisseur de Normes Électriques et Règlements",
+    "site_idea_summary": "Comparez instantanément les normes électriques entre différents pays (France, UE, US, etc.) et accédez aux réglementations clés pour vos projets d'installation ou de rénovation.",
+    "forced_slug": "convertisseur-de-normes-electriques-et-reglements-1"
+  },
+  "site_spec": {
+    "slug": "convertisseur-de-normes-electriques-et-reglements-1",
+    "theme": {
+      "name": "Blueprint Wire",
+      "slug": "blueprint-wire",
+      "eyebrow": "Technical Draft",
+      "family": "blueprint-wire",
+      "moods": [
+        "technical",
+        "precise",
+        "drafted",
+        "systemic"
+      ],
+      "archetypes": [
+        "tool",
+        "calculator"
+      ],
+      "niches": [
+        "estimators",
+        "engineering tools",
+        "developer tools",
+        "ops",
+        "qa"
+      ],
+      "keywords": [
+        "blueprint",
+        "wire",
+        "draft",
+        "precision",
+        "plan"
+      ],
+      "token_index": [
+        "blueprint",
+        "calculator",
+        "developer",
+        "draft",
+        "drafted",
+        "engineering",
+        "estimators",
+        "ops",
+        "plan",
+        "precise",
+        "precision",
+        "systemic",
+        "technical",
+        "tool",
+        "tools",
+        "wire"
+      ],
+      "font_embed": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap",
+      "display_font": "\"JetBrains Mono\", monospace",
+      "body_font": "\"Inter\", sans-serif",
+      "layout": "swiss",
+      "card_style": "outline",
+      "button_style": "outline",
+      "decor_style": "grid",
+      "hero_template": "1fr 1fr",
+      "seo_template": "1.45fr 0.55fr",
+      "feature_columns": 3,
+      "faq_columns": 4,
+      "hero_min_height": "78vh",
+      "panel_radius": "28px",
+      "card_radius": "26px",
+      "chip_radius": "999px",
+      "button_radius": "18px",
+      "outline_width": "1px",
+      "backdrop_blur": "0px",
+      "palette": {
+        "bg": "linear-gradient(145deg, #0c2340 0%, #163d72 100%)",
+        "surface": "rgba(9, 25, 48, 0.78)",
+        "surface_border": "rgba(125,211,252,0.18)",
+        "text": "#e6f1ff",
+        "muted": "#aac4e8",
+        "accent": "#7dd3fc",
+        "accent_alt": "#f8fafc",
+        "hero_glow": "rgba(125, 211, 252, 0.2)",
+        "button_text": "#082033",
+        "panel_alt": "rgba(255,255,255,0.04)",
+        "shadow": "0 28px 88px rgba(2, 12, 29, 0.36)",
+        "input_fill": "rgba(255,255,255,0.05)"
+      }
+    },
+    "structure": {
+      "name": "Metric Grid",
+      "slug": "metric-grid",
+      "hero_variant": "command",
+      "proof_variant": "metrics",
+      "section_order": [
+        "features",
+        "seo",
+        "proof",
+        "faq"
+      ],
+      "feature_columns": 4,
+      "faq_columns": 2,
+      "family": "data-grid",
+      "moods": [
+        "technical",
+        "precise",
+        "systemic"
+      ],
+      "archetypes": [
+        "tool",
+        "calculator"
+      ],
+      "niches": [
+        "developer tools",
+        "qa",
+        "finance",
+        "analytics"
+      ],
+      "keywords": [
+        "metrics",
+        "grid",
+        "dashboard",
+        "precision"
+      ],
+      "token_index": [
+        "analytics",
+        "calculator",
+        "command",
+        "dashboard",
+        "data",
+        "developer",
+        "faq",
+        "features",
+        "finance",
+        "grid",
+        "metric",
+        "metrics",
+        "precise",
+        "precision",
+        "proof",
+        "seo",
+        "systemic",
+        "technical",
+        "tool",
+        "tools"
+      ]
+    },
+    "render_direction": "atlas-report",
+    "render_direction_name": "Atlas Report",
+    "page_blueprint": "dossier-rail",
+    "page_blueprint_name": "Dossier Rail",
+    "title": "Convertisseur de Normes Électriques et Règlements",
+    "tagline": "Votre Analyseur de Conformité Électrique",
+    "description": "Comparez instantanément les normes électriques entre différents pays (France, UE, US, etc.) et accédez aux réglementations clés pour vos projets d",
+    "feature_prefix": "Bloc",
+    "action": "Utiliser l'outil",
+    "cta_primary": "Comparer les Normes",
+    "cta_secondary": "Consulter la FAQ",
+    "inputs": [
+      {
+        "id": "primary",
+        "label": "Texte ou besoin",
+        "type": "text",
+        "placeholder": "Votre besoin principal",
+        "weight": 1.0
+      },
+      {
+        "id": "context",
+        "label": "Contexte",
+        "type": "text",
+        "placeholder": "Situation ou objectif",
+        "weight": 1.0
+      },
+      {
+        "id": "scope",
+        "label": "Intensité",
+        "type": "number",
+        "placeholder": "3",
+        "weight": 0.3
+      }
+    ],
+    "hero_metrics": [
+      {
+        "value": "Atlas Report",
+        "label": "Cadence"
+      },
+      {
+        "value": "3",
+        "label": "Entrées"
+      },
+      {
+        "value": "Résultat recommandé",
+        "label": "Sortie"
+      }
+    ],
+    "trust_labels": [
+      "Atlas Report",
+      "Comparer les Normes",
+      "Résultat recommandé",
+      "Utilitaire immédiat",
+      "Structure SEO claire"
+    ],
+    "result_label": "Résultat recommandé",
+    "result_unit": "",
+    "runtime_mode": "analysis_tool",
+    "page_variant": "console",
+    "faq_topic": "Convertisseur de Normes Électriques et Règlements",
+    "faq_entries": [
+      {
+        "question": "Pourquoi utiliser cet outil pour Convertisseur de Normes Électriques et Règlements ?",
+        "answer": "Il aide à cadrer le besoin rapidement et à orienter vers une prochaine action claire sur le marché France."
+      },
+      {
+        "question": "Le résultat est-il immédiat ?",
+        "answer": "Oui. L'interface est pensée pour une réponse rapide, lisible et exploitable dès la première interaction."
+      },
+      {
+        "question": "Cette page est-elle adaptée au SEO ?",
+        "answer": "Oui. La structure mélange utilité, clarté éditoriale et signaux de confiance sans surcharger l'expérience."
+      }
+    ],
+    "seo_paragraphs": [
+      "Cette page capte une intention forte autour de Convertisseur de Normes Électriques et Règlements et la transforme en action utile pour un public situé sur France.",
+      "Le format hero-first accélère la compréhension, réduit les frictions et améliore la lisibilité sur mobile comme sur desktop.",
+      "Le socle reste volontairement simple pour faciliter les tests, la QA continue et les variations SEO."
+    ],
+    "document_html": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Convertisseur de Normes Électriques et Règlements | Votre Analyseur de Conformité Électrique</title>\n    <meta name=\"description\" content=\"Comparez instantanément les normes électriques entre différents pays (France, UE, US, etc.) et accédez aux réglementations clés pour vos projets d\">\n    <style>\n        :root {\n            --color-primary: #0056b3;\n            --color-secondary: #007bff;\n            --color-background: #f8f9fa;\n            --color-text: #333;\n            --color-light-gray: #e9ecef;\n            --color-border: #ced4da;\n            --font-serif: 'Georgia', serif;\n            --font-sans-serif: 'Helvetica Neue', Arial, sans-serif;\n        }\n\n        body {\n            font-family: var(--font-sans-serif);\n            line-height: 1.6;\n            color: var(--color-text);\n            background-color: var(--color-background);\n            margin: 0;\n            padding: 0;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n        }\n\n        header {\n            width: 100%;\n            background-color: #fff;\n            padding: 40px 20px;\n            text-align: center;\n            border-bottom: 1px solid var(--color-light-gray);\n        }\n\n        h1 {\n            font-family: var(--font-serif);\n            font-size: 2.8em;\n            color: var(--color-primary);\n            margin-bottom: 15px;\n            letter-spacing: -0.5px;\n        }\n\n        h2 {\n            font-family: var(--font-serif);\n            font-size: 2em;\n            color: var(--color-primary);\n            margin-top: 40px;\n            margin-bottom: 20px;\n            text-align: center;\n        }\n\n        p {\n            margin-bottom: 1em;\n            max-width: 800px;\n            text-align: center;\n            margin-left: auto;\n            margin-right: auto;\n        }\n\n        .container {\n            width: 100%;\n            max-width: 960px;\n            padding: 20px;\n            box-sizing: border-box;\n        }\n\n        .tool-section {\n            background-color: #fff;\n            border-radius: 8px;\n            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);\n            padding: 30px;\n            margin-top: 30px;\n            margin-bottom: 30px;\n            border: 1px solid var(--color-border);\n        }\n\n        form {\n            display: grid;\n            gap: 20px;\n            grid-template-columns: 1fr;\n        }\n\n        label {\n            display: block;\n            margin-bottom: 8px;\n            font-weight: bold;\n            color: var(--color-primary);\n        }\n\n        select, input[type=\"number\"] {\n            width: 100%;\n            padding: 12px;\n            border: 1px solid var(--color-border);\n            border-radius: 6px;\n            font-size: 1em;\n            box-sizing: border-box;\n            background-color: var(--color-light-gray);\n        }\n\n        button {\n            background-color: var(--color-secondary);\n            color: white;\n            padding: 14px 25px;\n            border: none;\n            border-radius: 6px;\n            cursor: pointer;\n            font-size: 1.1em;\n            font-weight: bold;\n            transition: background-color 0.3s ease;\n            width: fit-content;\n            margin-top: 20px;\n            justify-self: center;\n        }\n\n        button:hover {\n            background-color: #0056a3;\n        }\n\n        .result-section {\n            margin-top: 30px;\n            padding: 25px;\n            background-color: #f0f8ff;\n            border: 1px solid #cce5ff;\n            border-radius: 8px;\n            font-size: 1.05em;\n            line-height: 1.8;\n            color: #2c3e50;\n        }\n\n        .result-section h3 {\n            font-family: var(--font-serif);\n            color: var(--color-primary);\n            margin-bottom: 15px;\n            font-size: 1.5em;\n        }\n\n        .result-section ul {\n            list-style: none;\n            padding: 0;\n            margin: 0;\n        }\n\n        .result-section li {\n            background-color: #e0f0ff;\n            padding: 12px 15px;\n            margin-bottom: 10px;\n            border-left: 4px solid var(--color-secondary);\n            border-radius: 4px;\n            font-weight: 500;\n        }\n\n        .regulation-card {\n            background-color: #fefefe;\n            border: 1px solid var(--color-border);\n            border-radius: 8px;\n            padding: 20px;\n            margin-bottom: 20px;\n            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);\n            display: flex;\n            flex-direction: column;\n            gap: 10px;\n        }\n\n        .regulation-card h4 {\n            color: var(--color-secondary);\n            font-size: 1.3em;\n            margin: 0 0 10px 0;\n            font-family: var(--font-serif);\n        }\n\n        .regulation-card p strong {\n            color: var(--color-primary);\n        }\n\n        .cta-button {\n            display: inline-block;\n            background-color: var(--color-primary);\n            color: white;\n            padding: 12px 20px;\n            border-radius: 6px;\n            text-decoration: none;\n            font-weight: bold;\n            transition: background-color 0.3s ease;\n            margin-top: 20px;\n        }\n\n        .cta-button:hover {\n            background-color: #003d80;\n        }\n\n        .seo-section {\n            width: 100%;\n            background-color: #f0f0f0;\n            padding: 40px 20px;\n            text-align: center;\n            border-top: 1px solid var(--color-light-gray);\n            margin-top: 40px;\n        }\n\n        .seo-section h3 {\n            font-family: var(--font-serif);\n            color: var(--color-primary);\n            font-size: 1.8em;\n            margin-bottom: 20px;\n        }\n\n        .seo-section p {\n            max-width: 800px;\n            margin-left: auto;\n            margin-right: auto;\n            font-size: 0.95em;\n            color: #555;\n            text-align: left;\n        }\n\n        .seo-section ul {\n            max-width: 800px;\n            margin: 20px auto;\n            padding-left: 20px;\n            text-align: left;\n            list-style-type: disc;\n            color: #555;\n        }\n\n        .seo-section li {\n            margin-bottom: 8px;\n        }\n    </style>\n    <meta name=\"robots\" content=\"index, follow\">\n    <link rel=\"canonical\" href=\"https://convertisseur-de-normes-electriques-et-reglements-1.onrender.com\">\n    <meta property=\"og:title\" content=\"Convertisseur de Normes Électriques et Règlements\">\n    <meta property=\"og:description\" content=\"Comparez instantanément les normes électriques entre différents pays (France, UE, US, etc.) et accédez aux réglementations clés pour vos projets d\">\n    <meta property=\"og:url\" content=\"https://convertisseur-de-normes-electriques-et-reglements-1.onrender.com\">\n    <meta property=\"og:type\" content=\"website\">\n    <script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Convertisseur de Normes Électriques et Règlements\", \"description\": \"Comparez instantanément les normes électriques entre différents pays (France, UE, US, etc.) et accédez aux réglementations clés pour vos projets d\", \"url\": \"https://convertisseur-de-normes-electriques-et-reglements-1.onrender.com\", \"applicationCategory\": \"UtilityApplication\", \"operatingSystem\": \"Web Browser\"}</script>\n</head>\n<body data-site-slug=\"convertisseur-de-normes-electriques-et-reglements-1\" data-runtime-mode=\"analysis_tool\">\n    <header>\n        <h1>Convertisseur de Normes Électriques Internationales</h1>\n        <p>Un outil essentiel pour les électriciens, ingénieurs et bricoleurs avertis. Comparez instantanément les normes électriques entre différents pays et accédez aux réglementations clés pour vos projets d'installation ou de rénovation, en toute conformité.</p>\n    </header>\n\n    <div class=\"container\">\n        <section class=\"tool-section\">\n            <h2>Votre Analyseur de Conformité Électrique</h2>\n            <p>Sélectionnez les pays d'intérêt et les paramètres pour obtenir un aperçu détaillé des normes et régulations en vigueur.</p>\n            <form id=\"tool-form\">\n                <div>\n                    <label for=\"countryA\">Pays de référence (Source):</label>\n                    <select id=\"countryA\" name=\"countryA\">\n                        <option value=\"FR\">France (NF C 15-100)</option>\n                        <option value=\"EU\">Union Européenne (harmonisée CENELEC)</option>\n                        <option value=\"US\">États-Unis (NEC)</option>\n                        <option value=\"UK\">Royaume-Uni (BS 7671)</option>\n                        <option value=\"DE\">Allemagne (VDE)</option>\n                        <option value=\"CA\">Canada (Code canadien de l'électricité)</option>\n                    </select>\n                </div>\n                <div>\n                    <label for=\"countryB\">Pays cible (Comparaison):</label>\n                    <select id=\"countryB\" name=\"countryB\">\n                        <option value=\"EU\">Union Européenne (harmonisée CENELEC)</option>\n                        <option value=\"FR\">France (NF C 15-100)</option>\n                        <option value=\"US\">États-Unis (NEC)</option>\n                        <option value=\"UK\">Royaume-Uni (BS 7671)</option>\n                        <option value=\"DE\">Allemagne (VDE)</option>\n                        <option value=\"CA\">Canada (Code canadien de l'électricité)</option>\n                    </select>\n                </div>\n                <div>\n                    <label for=\"voltage\">Tension (Volts) - Saisie indicative:</label>\n                    <input type=\"number\" id=\"voltage\" name=\"voltage\" value=\"230\" min=\"100\" max=\"600\">\n                </div>\n                <div>\n                    <label for=\"frequency\">Fréquence (Hz) - Saisie indicative:</label>\n                    <input type=\"number\" id=\"frequency\" name=\"frequency\" value=\"50\" min=\"50\" max=\"60\">\n                </div>\n                <button type=\"submit\" id=\"tool-submit\">Comparer les Normes</button>\n            </form>\n\n            <div id=\"tool-result\" class=\"result-section\" style=\"display: none;\">\n                <h3 id=\"result-headline\">Résultats de la Comparaison des Normes</h3>\n                <div id=\"regulation-details\">\n                    <!-- Dynamic content will be loaded here -->\n                </div>\n                <p style=\"margin-top: 25px; text-align: left;\"><strong>Avertissement:</strong> Ces informations sont à titre indicatif et ne remplacent pas une étude approfondie par un professionnel qualifié. Les réglementations peuvent évoluer et des spécificités locales peuvent s'appliquer.</p>\n                <a href=\"#\" class=\"cta-button\" data-affiliate-slot=\"expert-consult\" style=\"margin-left: auto; margin-right: auto; display: block; width: fit-content;\">Trouver un expert local</a>\n            </div>\n        </section>\n    </div>\n\n    <section class=\"seo-section\">\n        <h3>Optimisez vos Installations Électriques avec Expertise</h3>\n        <p>Naviguer dans le labyrinthe des <strong>normes électriques internationales</strong> est un défi constant pour les professionnels et les particuliers. Notre outil de <strong>comparaison de régulations électriques</strong> est conçu pour simplifier cette tâche complexe. Que vous recherchiez la <strong>norme NF C 15-100</strong> en France, les exigences <strong>NEC aux États-Unis</strong>, ou les directives harmonisées de l'<strong>Union Européenne CENELEC</strong>, nous vous offrons un accès rapide aux informations clés.</p>\n        <p>Évitez les erreurs coûteuses et assurez la sécurité de vos projets grâce à une compréhension claire des <strong>tensions électriques par pays</strong>, des <strong>fréquences réseau</strong> et des <strong>réglementations de câblage</strong>. Notre plateforme est indispensable pour les électriciens, ingénieurs électriciens, bureaux d'études et tous ceux qui travaillent sur des chantiers internationaux ou des rénovations exigeantes.</p>\n        <ul>\n            <li><strong>Comparaison facile des normes électriques France vs USA, UE, UK, Allemagne, Canada.</strong></li>\n            <li>Accédez aux <strong>spécificités de la NF C 15-100</strong> et autres codes nationaux.</li>\n            <li>Comprenez les différences de <strong>tension et fréquence électrique</strong> selon les régions.</li>\n            <li>Outil pour la <strong>conformité électrique internationale</strong>.</li>\n            <li>Ressource pour la <strong>sécurité électrique des installations</strong>.</li>\n            <li>Informations sur les <strong>réglementations électriques pour l'exportation et l'importation</strong>.</li>\n        </ul>\n        <p>Faites de notre convertisseur de normes votre allié pour des installations électriques conformes et sécurisées, où que vous soyez dans le monde.</p>\n    </section>\n\n    <script>\n        document.getElementById('tool-form').addEventListener('submit', function(event) {\n            event.preventDefault();\n\n            const countryA = document.getElementById('countryA').value;\n            const countryB = document.getElementById('countryB').value;\n            const voltage = document.getElementById('voltage').value;\n            const frequency = document.getElementById('frequency').value;\n            const resultDiv = document.getElementById('tool-result');\n            const regulationDetailsDiv = document.getElementById('regulation-details');\n\n            const countryData = {\n                'FR': {\n                    name: 'France',\n                    norm: 'NF C 15-100',\n                    voltage: '230V',\n                    frequency: '50Hz',\n                    details: [\n                        \"Protection différentielle générale de 30mA obligatoire.\",\n                        \"Tableau électrique modulaire avec disjoncteurs divisionnaires.\",\n                        \"Nombre minimum de prises et points lumineux par pièce défini.\"\n                    ]\n                },\n                'EU': {\n                    name: 'Union Européenne',\n                    norm: 'Harmonisation CENELEC (EN standards)',\n                    voltage: '230V',\n                    frequency: '50Hz',\n                    details: [\n                        \"Tension nominale harmonisée à 230V AC ±10%.\",\n                        \"Fréquence de 50Hz standard.\",\n                        \"Exigences de sécurité générales basées sur les normes EN (ex: EN 60364).\"\n                    ]\n                },\n                'US': {\n                    name: 'États-Unis',\n                    norm: 'National Electrical Code (NEC)',\n                    voltage: '120V/240V',\n                    frequency: '60Hz',\n                    details: [\n                        \"Tension résidentielle typique 120V pour charges légères, 240V pour charges lourdes.\",\n                        \"Fréquence de 60Hz standard.\",\n                        \"Utilisation courante de disjoncteurs AFCI (Arc Fault Circuit Interrupter) et GFCI (Ground Fault Circuit Interrupter).\"\n                    ]\n                },\n                'UK': {\n                    name: 'Royaume-Uni',\n                    norm: 'BS 7671 (IET Wiring Regulations)',\n                    voltage: '230V',\n                    frequency: '50Hz',\n                    details: [\n                        \"Tension nominale de 230V, fréquence 50Hz.\",\n                        \"Système de protection RCD (Residual Current Device) similaire aux disjoncteurs différentiels.\",\n                        \"Utilisation de prises à trois broches avec fusible intégré (BS 1363).\"\n                    ]\n                },\n                'DE': {\n                    name: 'Allemagne',\n                    norm: 'VDE (Verband der Elektrotechnik)',\n                    voltage: '230V',\n                    frequency: '50Hz',\n                    details: [\n                        \"Tension de 230V, fréquence 50Hz.\",\n                        \"Normes VDE très strictes, souvent plus détaillées que les exigences CENELEC minimales.\",\n                        \"Protection par disjoncteurs différentiels (FI-Schutzschalter) obligatoire.\"\n                    ]\n                },\n                'CA': {\n                    name: 'Canada',\n                    norm: 'Code canadien de l\\'électricité (CSA C22.1)',\n                    voltage: '120V/240V',\n                    frequency: '60Hz',\n                    details: [\n                        \"Tension résidentielle similaire aux États-Unis (120V/240V).\",\n                        \"Fréquence de 60Hz.\",\n                        \"Exigences pour les prises de courant avec mise à la terre et protection par disjoncteur différentiel (GFCI) dans les zones humides.\"\n                    ]\n                }\n            };\n\n            const dataA = countryData[countryA];\n            const dataB = countryData[countryB];\n\n            let htmlContent = `\n                <div class=\"regulation-card\">\n                    <h4>Informations pour ${dataA.name}</h4>\n                    <p><strong>Norme principale:</strong> ${dataA.norm}</p>\n                    <p><strong>Tension typique:</strong> ${dataA.voltage}</p>\n                    <p><strong>Fréquence typique:</strong> ${dataA.frequency}</p>\n                    <ul>\n            `;\n            dataA.details.forEach(item => {\n                htmlContent += `<li>${item}</li>`;\n            });\n            htmlContent += `\n                    </ul>\n                </div>\n                <div class=\"regulation-card\">\n                    <h4>Informations pour ${dataB.name}</h4>\n                    <p><strong>Norme principale:</strong> ${dataB.norm}</p>\n                    <p><strong>Tension typique:</strong> ${dataB.voltage}</p>\n                    <p><strong>Fréquence typique:</strong> ${dataB.frequency}</p>\n                    <ul>\n            `;\n            dataB.details.forEach(item => {\n                htmlContent += `<li>${item}</li>`;\n            });\n            htmlContent += `\n                    </ul>\n                </div>\n                <h4 style=\"margin-top: 30px;\">Points de vigilance spécifiques pour ${dataA.name} vers ${dataB.name} (avec vos valeurs indicatives: ${voltage}V, ${frequency}Hz) :</h4>\n                <ul>\n            `;\n\n            if (dataA.voltage !== dataB.voltage) {\n                htmlContent += `<li><strong>Différence de Tension:</strong> La tension entre ${dataA.name} (${dataA.voltage}) et ${dataB.name} (${dataB.voltage}) peut nécessiter un transformateur ou des équipements adaptés. Votre valeur de ${voltage}V doit être vérifiée par rapport aux deux normes.</li>`;\n            } else {\n                htmlContent += `<li><strong>Tension similaire:</strong> Les tensions sont généralement compatibles (${dataA.voltage}). Votre valeur de ${voltage}V est cohérente.</li>`;\n            }\n\n            if (dataA.frequency !== dataB.frequency) {\n                htmlContent += `<li><strong>Différence de Fréquence:</strong> La fréquence diffère entre ${dataA.name} (${dataA.frequency}) et ${dataB.name} (${dataB.frequency}). Cela impacte les moteurs et horloges. Votre valeur de ${frequency}Hz doit être prise en compte.</li>`;\n            } else {\n                htmlContent += `<li><strong>Fréquence similaire:</strong> Les fréquences sont généralement compatibles (${dataA.frequency}). Votre valeur de ${frequency}Hz est cohérente.</li>`;\n            }\n\n            if ((countryA === 'FR' || countryA === 'EU') && (countryB === 'US' || countryB === 'CA')) {\n                htmlContent += `<li><strong>Protection des circuits:</strong> Passage de disjoncteurs différentiels (RCD/FI) à AFCI/GFCI. Les exigences de protection contre les défauts d'arc et de terre sont différentes.</li>`;\n            } else if ((countryA === 'US' || countryA === 'CA') && (countryB === 'FR' || countryB === 'EU')) {\n                htmlContent += `<li><strong>Protection des circuits:</strong> Passage de AFCI/GFCI à disjoncteurs différentiels (RCD/FI). Les approches de protection sont distinctes.</li>`;\n            }\n\n            if (countryA === 'UK' && countryB !== 'UK') {\n                htmlContent += `<li><strong>Prises de courant:</strong> Le système de prises BS 1363 (avec fusible) au Royaume-Uni est spécifique et incompatible avec la plupart des autres pays.</li>`;\n            } else if (countryB === 'UK' && countryA !== 'UK') {\n                htmlContent += `<li><strong>Prises de courant:</strong> Prévoir des adaptateurs ou des remplacements de prises pour le système BS 1363 du Royaume-Uni.</li>`;\n            }\n\n            htmlContent += `\n                <li><strong>Certifications:</strong> Vérifiez les certifications produit requises (CE pour l'UE, UL/ETL pour les US, CSA pour le Canada, etc.) pour les équipements importés.</li>\n                <li><strong>Dimensionnement des conducteurs:</strong> Les sections de câbles peuvent varier en fonction des intensités admissibles propres à chaque norme.</li>\n                </ul>\n            `;\n\n            regulationDetailsDiv.innerHTML = htmlContent;\n            resultDiv.style.display = 'block';\n        });\n    </script>\n<div id=\"qa-smoke-result\" hidden></div>\n<script id=\"farmbuilder-affiliate-helper\">\n(function () {\n  window.__UTILITY_AFFILIATE_MAP = window.__UTILITY_AFFILIATE_MAP || {};\n  document.addEventListener(\"click\", function (event) {\n    const target = event.target.closest(\"[data-affiliate-slot]\");\n    if (!target) return;\n    const slot = target.getAttribute(\"data-affiliate-slot\");\n    const href = window.__UTILITY_AFFILIATE_MAP[slot];\n    if (!href) return;\n    if (target.tagName && target.tagName.toLowerCase() === \"a\") {\n      target.setAttribute(\"href\", href);\n      target.setAttribute(\"rel\", \"nofollow sponsored noopener noreferrer\");\n      return;\n    }\n    event.preventDefault();\n    window.open(href, \"_blank\", \"noopener\");\n  }, true);\n})();\n</script>\n<script id=\"farmbuilder-functional-qa\">\n(function () {\n  function marker() {\n    let node = document.getElementById(\"qa-smoke-result\");\n    if (node) return node;\n    node = document.createElement(\"div\");\n    node.id = \"qa-smoke-result\";\n    node.hidden = true;\n    document.body.appendChild(node);\n    return node;\n  }\n\n  let qaFinished = false;\n  let qaWatchdog = null;\n\n  function normalize(text) {\n    return String(text || \"\").replace(/\\s+/g, \" \").trim();\n  }\n\n  function findForm() {\n    return document.getElementById(\"tool-form\") || document.querySelector(\"form\");\n  }\n\n  function findResult() {\n    return (\n      document.getElementById(\"tool-result\") ||\n      document.querySelector(\"[data-result]\") ||\n      document.querySelector(\".tool-result, .result-card, .result, .results, .output, .preview, .diagnostic, .analysis\")\n    );\n  }\n\n  function primaryAction(form) {\n    if (!form) return null;\n    return (\n      document.getElementById(\"tool-submit\") ||\n      form.querySelector(\"#tool-submit\") ||\n      form.querySelector(\"[data-primary-action]\") ||\n      form.querySelector(\"button[type=submit]\") ||\n      form.querySelector(\"button\") ||\n      form.querySelector(\"input[type=submit]\")\n    );\n  }\n\n  function resultSignature(node) {\n    if (!node) return \"\";\n    const text = normalize(node.textContent);\n    const html = normalize(node.innerHTML).slice(0, 600);\n    return `${text}||${html}`;\n  }\n\n  function resultHeadline(node) {\n    if (!node) return \"\";\n    const heading = node.querySelector(\"h1, h2, h3, strong, b\");\n    return normalize(heading ? heading.textContent : \"\");\n  }\n\n  function sampleText(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"} ${field.placeholder || \"\"}`.toLowerCase();\n    if (/email/.test(key)) return \"bonjour@example.com\";\n    if (/url|site|website|lien/.test(key)) return \"https://example.com/offre-solaire\";\n    if (/phone|tel|mobile/.test(key)) return \"0612345678\";\n    if (/ville|city|localisation|location|region|departement|postal/.test(key)) return \"Paris\";\n    if (/orientation/.test(key)) return \"sud\";\n    if (/keyword|theme|topic|sujet|subject/.test(key)) return \"energie solaire domestique\";\n    if (/titre|title/.test(key)) return \"Simulateur solaire maison\";\n    if (/nom|name|project/.test(key)) return \"Projet Horizon\";\n    if (/description|notes|content|message/.test(key)) return \"Maison individuelle exposee sud avec toiture exploitable.\";\n    return field.placeholder || \"France\";\n  }\n\n  function sampleNumber(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"}`.toLowerCase();\n    if (/inclinaison|angle|slope/.test(key)) return \"30\";\n    if (/surface|size|m2|sqm/.test(key)) return \"28\";\n    if (/annee|year/.test(key)) return \"2024\";\n    if (/prix|price|budget|cost|amount|montant/.test(key)) return \"12000\";\n    const min = Number(field.min || \"\");\n    const max = Number(field.max || \"\");\n    if (Number.isFinite(min) && Number.isFinite(max) && max >= min) {\n      return String(Math.min(max, Math.max(min, min + Math.round((max - min) * 0.35))));\n    }\n    if (Number.isFinite(min)) return String(Math.max(min, 12));\n    if (Number.isFinite(max)) return String(Math.min(max, 12));\n    return field.value || \"12\";\n  }\n\n  function applySample(field) {\n    const tag = (field.tagName || \"\").toLowerCase();\n    const type = (field.type || \"\").toLowerCase();\n    if (field.disabled) return;\n    if (type === \"hidden\" || type === \"submit\" || type === \"button\" || type === \"reset\" || type === \"image\" || type === \"file\") {\n      return;\n    }\n    const currentValue = normalize(field.value);\n    if (tag === \"select\") {\n      if (currentValue) return;\n      const option = Array.from(field.options || []).find((item) => item.value && !item.disabled) || field.options[0];\n      if (option) field.value = option.value;\n      return;\n    }\n    if (type === \"checkbox\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"radio\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"date\") {\n      if (currentValue) return;\n      field.value = \"2026-03-01\";\n      return;\n    }\n    if (type === \"email\") {\n      if (currentValue) return;\n      field.value = \"bonjour@example.com\";\n      return;\n    }\n    if (type === \"url\") {\n      if (currentValue) return;\n      field.value = \"https://example.com/offre-solaire\";\n      return;\n    }\n    if (type === \"tel\") {\n      if (currentValue) return;\n      field.value = \"0612345678\";\n      return;\n    }\n    if (type === \"color\") {\n      if (currentValue) return;\n      field.value = \"#2f855a\";\n      return;\n    }\n    if (type === \"number\" || type === \"range\") {\n      if (currentValue) return;\n      field.value = sampleNumber(field);\n      return;\n    }\n    if (currentValue) return;\n    field.value = sampleText(field);\n  }\n\n  function stamp(status, detail, headline, primary) {\n    if (qaFinished) return;\n    qaFinished = true;\n    if (qaWatchdog) {\n      window.clearTimeout(qaWatchdog);\n      qaWatchdog = null;\n    }\n    const node = marker();\n    node.dataset.status = status;\n    node.dataset.mode = \"native-form\";\n    node.dataset.detail = detail || \"\";\n    node.dataset.headline = headline || \"\";\n    node.dataset.primary = primary || \"\";\n    node.dataset.viewport = window.innerWidth <= 640 ? \"mobile\" : \"desktop\";\n    window.setTimeout(function () {\n      try {\n        window.stop();\n      } catch (_error) {}\n    }, 0);\n  }\n\n  function installModalGuards() {\n    const noop = function () {};\n    const approve = function () { return true; };\n    const empty = function () { return \"\"; };\n    try { window.alert = noop; } catch (_error) {}\n    try { window.confirm = approve; } catch (_error) {}\n    try { window.prompt = empty; } catch (_error) {}\n  }\n\n  function triggerAction(form, action) {\n    try {\n      if (typeof form.requestSubmit === \"function\") {\n        form.requestSubmit(action || undefined);\n        return;\n      }\n    } catch (_error) {}\n    if (action && typeof action.click === \"function\") {\n      action.click();\n      return;\n    }\n    form.dispatchEvent(new Event(\"submit\", { bubbles: true, cancelable: true }));\n  }\n\n  function inspectResult(before, attemptsLeft) {\n    const result = findResult();\n    if (!result) {\n      stamp(\"fail\", \"La zone de resultat est introuvable.\", \"\");\n      return;\n    }\n    const after = resultSignature(result);\n    const text = normalize(result.textContent);\n    if (after && after !== before && text.length >= 24) {\n      const primary = result.querySelector(\"a[href], button[data-href], [data-primary-url]\") || document.querySelector(\"#tool-result a[href]\");\n      stamp(\"pass\", \"Le formulaire natif a mis a jour la zone de resultat.\", resultHeadline(result), primary ? (primary.getAttribute(\"href\") || primary.getAttribute(\"data-primary-url\") || \"\") : \"\");\n      return;\n    }\n    if (attemptsLeft > 0) {\n      window.setTimeout(function () {\n        inspectResult(before, attemptsLeft - 1);\n      }, 250);\n      return;\n    }\n    stamp(\"fail\", \"La zone de resultat n'a pas renvoye de contenu exploitable.\", resultHeadline(result));\n  }\n\n  function runSmoke() {\n    const params = new URLSearchParams(window.location.search);\n    if (params.get(\"__qa\") !== \"functional\") return;\n    qaWatchdog = window.setTimeout(function () {\n      stamp(\"fail\", \"QA smoke timed out before the page reported a usable result.\", \"\");\n    }, 7000);\n    const form = findForm();\n    if (!form) {\n      stamp(\"fail\", \"Le formulaire principal est introuvable.\", \"\");\n      return;\n    }\n    const result = findResult();\n    const before = resultSignature(result);\n    installModalGuards();\n    try {\n      form.querySelectorAll(\"input, select, textarea\").forEach(applySample);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke sample failed: ${error.message}` : \"QA smoke sample failed before submit.\", \"\");\n      return;\n    }\n    const action = primaryAction(form);\n    try {\n      triggerAction(form, action);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke submit failed: ${error.message}` : \"QA smoke submit failed.\", \"\");\n      return;\n    }\n    inspectResult(before, 10);\n  }\n\n  window.addEventListener(\"error\", function (event) {\n    const message = event && event.message ? event.message : \"JavaScript runtime error during QA smoke.\";\n    stamp(\"fail\", `QA smoke JS error: ${message}`, \"\");\n  }, { once: true });\n\n  window.addEventListener(\"unhandledrejection\", function (event) {\n    const reason = event && event.reason;\n    const detail = typeof reason === \"string\"\n      ? reason\n      : reason && reason.message\n        ? reason.message\n        : \"Unhandled promise rejection during QA smoke.\";\n    stamp(\"fail\", `QA smoke rejection: ${detail}`, \"\");\n  }, { once: true });\n\n  if (document.readyState === \"loading\") {\n    document.addEventListener(\"DOMContentLoaded\", function () {\n      window.setTimeout(runSmoke, 60);\n    }, { once: true });\n  } else {\n    window.setTimeout(runSmoke, 60);\n  }\n})();\n</script>\n</body>\n</html>",
+    "generation_mode": "direct_html"
+  }
+}
