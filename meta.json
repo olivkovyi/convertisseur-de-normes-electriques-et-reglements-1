@@ -1,0 +1,40 @@
+{
+  "name": "Convertisseur de Normes Électriques et Règlements",
+  "description": "Comparez instantanément les normes électriques entre différents pays (France, UE, US, etc.) et accédez aux réglementations clés pour vos projets d",
+  "theme": "tool",
+  "design_theme": "blueprint-wire",
+  "structure_preset": "metric-grid",
+  "render_direction": "atlas-report",
+  "page_blueprint": "dossier-rail",
+  "language": "fr",
+  "country": "FR",
+  "url": null,
+  "expected_url": "https://convertisseur-de-normes-electriques-et-reglements-1.onrender.com",
+  "created": "2026-04-13T00:32:41.345645+00:00",
+  "owner_user_id": "user-1774822953462",
+  "owner_username": "admin",
+  "owner_display_name": "Administrator",
+  "status": "generated",
+  "run_id": "run-1776040317653",
+  "publish_target": "render",
+  "mode": "production",
+  "github": {
+    "status": "pending"
+  },
+  "deployment": {
+    "status": "pending"
+  },
+  "qa": {
+    "status": "pending"
+  },
+  "features": [
+    "Hero pattern: command",
+    "Proof module: metrics",
+    "Design theme: Blueprint Wire",
+    "Render direction: Atlas Report",
+    "Page blueprint: Dossier Rail",
+    "Runtime mode: analysis_tool",
+    "Generation mode: direct_html",
+    "Artifact rendered, awaiting QA and deployment"
+  ]
+}
