@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comprendre la Norme NF C 15-100 : Guide Complet pour les Installations en France</title>
+  <meta name="description" content="Un guide détaillé des principes fondamentaux, des exigences clés et des mises à jour récentes de la norme NF C 15-100, indispensable pour toute installation électrique résidentiel…">
+  <style>
+    :root {
+      --page-bg: #f4efe7;
+      --page-fg: #18212c;
+      --muted: #445164;
+      --surface: rgba(255, 250, 244, 0.96);
+      --surface-alt: rgba(248, 241, 232, 0.9);
+      --border: rgba(28, 34, 44, 0.09);
+      --accent: #0056b3;
+      --accent-alt: #007bff;
+      --button-text: #13202c;
+      --shadow: 0 26px 60px rgba(55, 45, 24, 0.12);
+      --font-stack: var(--font-sans-serif);
+      --hero-glow: color-mix(in srgb, #007bff 18%, transparent);
+      --radius: 28px;
+    }
+    * { box-sizing: border-box; }
+    body { font-family: var(--font-stack); background: radial-gradient(circle at top, var(--hero-glow), transparent 32%), var(--page-bg); color: var(--page_fg); margin:0; min-height:100vh; }
+    main { max-width: 980px; margin: 0 auto; padding: 48px 20px 90px; }
+    .content-page { position: relative; }
+    .content-page::before {
+      content: "";
+      position: absolute;
+      inset: 8px 8px auto auto;
+      width: 180px;
+      height: 180px;
+      background: radial-gradient(circle, var(--accent-alt) 0%, transparent 70%);
+      opacity: .12;
+      filter: blur(12px);
+      pointer-events: none;
+    }
+    .article-shell {
+      position: relative;
+      background: linear-gradient(180deg, var(--surface), var(--surface-alt));
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 34px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+    .article-shell--split { display:grid; grid-template-columns: minmax(0, 1.1fr) 220px; gap: 26px; align-items: start; }
+    .article-shell--split .article-sidecard { display:flex; }
+    .article-shell--editorial::after,
+    .article-shell--soft-card::after,
+    .article-shell--briefing::after,
+    .article-shell--framework::after {
+      content: "";
+      position: absolute;
+      inset: 0 auto auto 0;
+      width: 100%;
+      height: 5px;
+      background: linear-gradient(90deg, var(--accent), var(--accent-alt));
+      opacity: .9;
+    }
+    .article-shell--soft-card { border-radius: 34px; }
+    .article-main { min-width: 0; }
+    .article-sidecard {
+      display:none;
+      align-self: stretch;
+      border: 1px solid var(--border);
+      border-radius: calc(var(--radius) - 8px);
+      padding: 18px;
+      background: rgba(255,255,255,.03);
+      color: var(--muted);
+    }
+    .article-sidecard strong { color: var(--page-fg); display:block; margin-bottom:8px; }
+    .eyebrow { color:var(--accent); font-size:12px; text-transform:uppercase; letter-spacing:.16em; }
+    h1 { font-size: clamp(2.1rem, 5vw, 3.7rem); line-height: .95; margin: 14px 0 18px; max-width: 12ch; }
+    h2 { font-size: 1.18rem; margin-top: 30px; margin-bottom: 10px; }
+    p, li { color: var(--muted); line-height:1.76; }
+    section + section { margin-top: 10px; }
+    a { color: var(--accent); }
+    .article-lead { font-size: 1.02rem; color: var(--page-fg); max-width: 62ch; }
+    .article-style-note { margin: 18px 0 0; color: var(--muted); font-size: .94rem; max-width: 58ch; }
+    .article-actions { display:flex; gap:12px; flex-wrap:wrap; margin-top:30px; }
+    .article-actions a {
+      text-decoration:none;
+      padding:13px 18px;
+      border-radius:999px;
+      border:1px solid var(--border);
+      background: linear-gradient(135deg, var(--accent), var(--accent-alt));
+      color: var(--button-text);
+      font-weight: 700;
+      box-shadow: 0 16px 32px rgba(0,0,0,.14);
+    }
+    .faq { margin-top: 28px; display:grid; gap:10px; }
+    details { border:1px solid var(--border); border-radius:18px; padding:14px 16px; background:rgba(255,255,255,.025); }
+    summary { cursor:pointer; color: var(--page-fg); font-weight: 600; }
+    .article-tail { margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--border); }
+    .content-page--briefing .content-section {
+      padding: 18px 20px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,.025);
+      border-radius: 18px;
+    }
+    .content-page--checklist .content-section ul {
+      margin: 0;
+      padding-left: 1.1rem;
+      display: grid;
+      gap: 10px;
+    }
+    .content-page--framework .content-section {
+      padding-left: 18px;
+      border-left: 2px solid color-mix(in srgb, var(--accent) 55%, transparent);
+    }
+    .section-step {
+      display: grid;
+      grid-template-columns: 34px 1fr;
+      gap: 12px;
+      align-items: start;
+      margin-top: 10px;
+    }
+    .section-step__index {
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      width: 28px;
+      height: 28px;
+      border-radius: 999px;
+      background: color-mix(in srgb, var(--accent) 22%, transparent);
+      color: var(--page-fg);
+      font-weight: 700;
+      font-size: .88rem;
+    }
+    @media (max-width: 820px) {
+      .article-shell--split { grid-template-columns: 1fr; }
+      .article-sidecard { display:none !important; }
+      .article-shell { padding: 26px 22px; }
+      h1 { max-width: none; }
+    }
+  </style>
+</head>
+<body>
+  <main class="content-page content-page--soft-card content-page--editorial">
+    <article class="article-shell article-shell--soft-card article-shell--editorial">
+      <div class="article-main">
+      <div class="eyebrow">Convertisseur de Normes Électriques et Règlements</div>
+      <h1>Comprendre la Norme NF C 15-100 : Guide Complet pour les Installations en France</h1>
+      <p class="article-lead">La norme NF C 15-100 est la référence incontournable pour toutes les installations électriques basse tension en France. Elle régit la conception, la réalisation, la vérification et l&#x27;entretien des installations électriques afin d&#x27;assurer l…</p>
+      <p class="article-style-note">This article adopts a clear, informative, and authoritative tone suitable for a technical guide, using structured sections and a direct language.</p>
+      <section class="content-section content-section--editorial"><h2>Les Fondamentaux de la NF C 15-100</h2><p>La NF C 15-100 est bien plus qu&#x27;un simple recueil de règles ; c&#x27;est un ensemble de prescriptions techniques visant à garantir la sécurité électrique. Elle couvre un large éventail d&#x27;aspects, depuis la protection des personnes contre les chocs électriques directs et indirects, ju…</p><p>Parmi ses principes fondamentaux, on retrouve l&#x27;obligation d&#x27;un dispositif de coupure d&#x27;urgence, la protection contre les surintensités (disjoncteurs, fusibles) et les courants de fuite (interrupteurs différentiels), ainsi que les règles de dimensionnement des conducteurs et de…</p></section><section class="content-section content-section--editorial"><h2>Exigences Clés pour les Installations Résidentielles et Tertiaires</h2><p>Pour les logements, la NF C 15-100 impose des règles spécifiques concernant le nombre minimal de points lumineux et de prises de courant par pièce, la présence d&#x27;un tableau de répartition accessible et clairement identifié, et la protection des circuits spécialisés (lave-linge,…</p><p>Dans le secteur tertiaire, les exigences sont souvent plus complexes, tenant compte de la nature des activités, de la densité d&#x27;occupation et de la présence d&#x27;équipements spécifiques. La norme y aborde des sujets tels que l&#x27;éclairage de sécurité, les installations de groupes éle…</p></section><section class="content-section content-section--editorial"><h2>Mises à Jour et Évolutions Récentes</h2><p>La NF C 15-100 n&#x27;est pas une norme statique. Elle évolue pour s&#x27;adapter aux nouveaux usages et aux innovations technologiques. Les dernières amendements ont notamment intégré des dispositions relatives aux bornes de recharge pour véhicules électriques, aux installations photovol…</p><p>Il est crucial pour les professionnels de consulter régulièrement les dernières éditions et amendements de la norme pour garantir la conformité de leurs réalisations. Ignorer ces évolutions peut entraîner des non-conformités, des risques pour la sécurité et des complications lor…</p></section>
+      <section class="faq"><details><summary>Qui doit respecter la norme NF C 15-100 ?</summary><p>Toute personne réalisant ou modifiant une installation électrique basse tension en France, qu&#x27;il s&#x27;agisse d&#x27;un professionnel (électricien, ingénieur) ou d&#x27;un particulier, doit se conformer à la NF C 15-100 pour garantir la sécurité et la conformité de l&#x27;installation.</p></details><details><summary>Où puis-je consulter la norme NF C 15-100 ?</summary><p>La norme NF C 15-100 est un document payant et peut être acquise auprès de l&#x27;AFNOR (Association Française de Normalisation) ou de ses distributeurs agréés. Il est essentiel de se procurer la version la plus récente, incluant tous les amendements.</p></details></section>
+      <div class="article-actions">
+        <a href="../index.html">Explorez les détails de la NF C 15-100</a>
+      </div>
+      <p class="article-tail">Pour une analyse comparative plus approfondie des normes électriques, y compris la NF C 15-100, utilisez notre outil de conversion. Il vous aidera à identifier rapidement les spéc…</p>
+      </div>
+      <aside class="article-sidecard">
+        <div>
+          <strong>Convertisseur de Normes Électriques et Règlements</strong>
+          <span>Un guide détaillé des principes fondamentaux, des exigences clés et des mises à jour récentes de la norme NF C 15-100, indispensable pour toute installation électrique résidentiel…</span>
+        </div>
+      </aside>
+    </article>
+  <section class="growth-plain-url-block" data-growth-affiliate="plain-url" style="margin:20px 0 0;padding:14px 16px;border:1px solid rgba(127,127,127,.18);border-radius:16px;background:rgba(127,127,127,.05)"><p class="growth-plain-url-copy" style="margin:0;line-height:1.7">Pour en savoir plus sur les applications pratiques et les services connexes à la conformité électrique, vous pouvez consulter des ressources supplémentaires sur https://spinaura-france.casino/. <a href="https://spinaura-france.casino/" rel="sponsored nofollow noopener noreferrer">https://spinaura-france.casino/</a>.</p></section></main>
+<script id="farmbuilder-affiliate-runtime">
+(function () {
+  document.addEventListener("click", function (event) {
+    const node = event.target.closest("[data-affiliate-link]");
+    if (!node) return;
+    const url = node.getAttribute("data-affiliate-link");
+    if (!url) return;
+    window.setTimeout(function () {
+      try {
+        window.open(url, "_blank", "noopener,noreferrer");
+      } catch (error) {
+        window.location.href = url;
+      }
+    }, 80);
+  }, true);
+})();
+</script>
+</body>
+</html>
