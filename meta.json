@@ -11,17 +11,17 @@
   "country": "FR",
   "url": null,
   "expected_url": "https://convertisseur-de-normes-electriques-et-reglements-1.onrender.com",
-  "created": "2026-05-07T11:02:03.912969+00:00",
+  "created": "2026-05-07T11:15:43.632661+00:00",
   "owner_user_id": "user-1774822953462",
   "owner_username": "admin",
   "owner_display_name": "Administrator",
   "status": "generated",
-  "run_id": "run-1778151619807",
+  "run_id": "run-1778152460758",
   "publish_target": "render",
   "mode": "production",
   "source_type": "imported",
-  "import_source_path": "/var/lib/utility-site-studio/data/growth-republish/growth-1778151447165/convertisseur-de-normes-electriques-et-reglements-1",
-  "import_root_path": "/var/lib/utility-site-studio/data/growth-republish/growth-1778151447165/convertisseur-de-normes-electriques-et-reglements-1",
+  "import_source_path": "/var/lib/utility-site-studio/data/growth-republish/growth-1778152198723/convertisseur-de-normes-electriques-et-reglements-1",
+  "import_root_path": "/var/lib/utility-site-studio/data/growth-republish/growth-1778152198723/convertisseur-de-normes-electriques-et-reglements-1",
   "import_resolution_note": null,
   "analysis": {
     "model": "preserved-analysis",
@@ -64,6 +64,40 @@
         "summary": "A safer non-anchor URL block was applied near the bottom of the page with contextual copy.",
         "issues": []
       }
+    },
+    "content": {
+      "status": "ready",
+      "updated_at": "2026-05-07T11:14:02.793994+00:00",
+      "article_count": 1,
+      "anchor_article_count": 0,
+      "plain_url_article_count": 1,
+      "batch_anchor_article_count": 1,
+      "batch_plain_url_article_count": 4,
+      "total_batch_articles": 5,
+      "links": 1,
+      "anchor_keywords": [
+        "spinaura casino"
+      ],
+      "section_title": "Ressources Essentielles en Réglementation Électrique",
+      "pages": [
+        {
+          "slug": "guide-norme-nfc15-100-france",
+          "path": "/var/lib/utility-site-studio/sites/convertisseur-de-normes-electriques-et-reglements-1/insights/guide-norme-nfc15-100-france.html",
+          "title": "Comprendre la Norme NF C 15-100 : Guide Complet pour les Installations en France",
+          "link_mode": "plain_url_text"
+        }
+      ],
+      "review": {
+        "status": "pass",
+        "score": 78,
+        "summary": "The homepage excerpt presents a legitimate electrical standards converter tool with clear structure and appropriate professional tone. Content is coherent and serves a genuine utility purpose. Minor SEO optimization present but not excessive.",
+        "issues": [
+          "Slight keyword repetition ('normes électriques' appears multiple times in opening section)",
+          "CTA 'Trouver un expert local' could be perceived as affiliate-adjacent but is contextually appropriate",
+          "Disclaimer is present and responsible, reducing compliance risk",
+          "Some redundancy in country listings between source and target sections could be streamlined for UX clarity"
+        ]
+      }
     }
   },
   "ahrefs": {
@@ -104,7 +138,7 @@
       "status": "published",
       "repo_name": "convertisseur-de-normes-electriques-et-reglements-1",
       "repo_url": "https://github.com/olivkovyi/convertisseur-de-normes-electriques-et-reglements-1",
-      "updated_at": 1776040402
+      "updated_at": 1778151733
     },
     "deployment": {
       "status": "ready",
@@ -112,14 +146,14 @@
       "service_id": "srv-d7e3kareo5us738179e0",
       "project_name": "convertisseur-de-normes-electriques-et-reglements-1",
       "requested_project_name": null,
-      "deployment_id": "dep-d7e3kb3eo5us738179jg",
+      "deployment_id": "dep-d7u7385ckfvc73emu4og",
       "deployment_url": "https://convertisseur-de-normes-electriques-et.onrender.com",
       "public_url": "https://convertisseur-de-normes-electriques-et.onrender.com",
       "expected_public_url": "https://convertisseur-de-normes-electriques-et.onrender.com",
       "dashboard_url": "https://dashboard.render.com/static/srv-d7e3kareo5us738179e0",
       "ready_state": "live",
       "target": "production",
-      "updated_at": 1776040421,
+      "updated_at": 1778151751,
       "requested_public_url": "https://convertisseur-de-normes-electriques-et.onrender.com",
       "url_source": "alias"
     },
@@ -194,38 +228,38 @@
             "detail": "Editorial desktop layout avoids negative overlap offsets on the tool panel"
           }
         ],
-        "checked_at": 1778151601
+        "checked_at": 1778152443
       },
       "functional": {
         "status": "pass",
         "detail": "desktop: Le formulaire natif a mis a jour la zone de resultat. | mobile: Le formulaire natif a mis a jour la zone de resultat.",
-        "target_url": "http://127.0.0.1:35561/index.html?__qa=functional",
+        "target_url": "http://127.0.0.1:44595/index.html?__qa=functional",
         "mode": "native-form",
         "headline": "Résultats de la Comparaison des Normes",
         "primary_url": "#",
         "desktop": {
           "status": "pass",
           "detail": "Le formulaire natif a mis a jour la zone de resultat.",
-          "target_url": "http://127.0.0.1:35561/index.html?__qa=functional",
+          "target_url": "http://127.0.0.1:44595/index.html?__qa=functional",
           "viewport": "desktop",
           "mode": "native-form",
           "headline": "Résultats de la Comparaison des Normes",
           "primary_url": "#",
           "reported_viewport": "desktop",
-          "updated_at": 1778151602
+          "updated_at": 1778152444
         },
         "mobile": {
           "status": "pass",
           "detail": "Le formulaire natif a mis a jour la zone de resultat.",
-          "target_url": "http://127.0.0.1:35561/index.html?__qa=functional",
+          "target_url": "http://127.0.0.1:44595/index.html?__qa=functional",
           "viewport": "mobile",
           "mode": "native-form",
           "headline": "Résultats de la Comparaison des Normes",
           "primary_url": "#",
           "reported_viewport": "mobile",
-          "updated_at": 1778151602
+          "updated_at": 1778152444
         },
-        "updated_at": 1778151603
+        "updated_at": 1778152445
       },
       "remote": {
         "status": "pass",
@@ -246,7 +280,7 @@
             "detail": "Remote HTML contains a body tag"
           }
         ],
-        "checked_at": 1778151603
+        "checked_at": 1778152445
       },
       "visual": {
         "status": "pass",
@@ -262,21 +296,21 @@
           "detail": "430x932 screenshot captured.",
           "relative_url": "/static/generated-qa/convertisseur-de-normes-electriques-et-reglements-1/convertisseur-de-normes-electriques-et-reglements-1-mobile.png"
         },
-        "updated_at": 1778151605
+        "updated_at": 1778152447
       },
       "lighthouse": {
         "status": "pass",
         "scores": {
           "performance": 100,
-          "accessibility": 93,
+          "accessibility": 94,
           "best-practices": 96,
           "seo": 100
         },
         "report_path": "/var/lib/utility-site-studio/data/qa/lighthouse/convertisseur-de-normes-electriques-et-reglements-1-lighthouse.json",
-        "updated_at": 1778151619
+        "updated_at": 1778152460
       },
       "qa_live_url": "https://convertisseur-de-normes-electriques-et.onrender.com",
-      "updated_at": "2026-05-07T11:00:19.667285+00:00"
+      "updated_at": "2026-05-07T11:14:20.615617+00:00"
     }
   }
 }
