@@ -37,7 +37,7 @@
     "status": "published",
     "repo_name": "convertisseur-de-normes-electriques-et-reglements-1",
     "repo_url": "https://github.com/olivkovyi/convertisseur-de-normes-electriques-et-reglements-1",
-    "updated_at": 1778152560
+    "updated_at": 1778529038
   },
   "deployment": {
     "status": "ready",
@@ -45,16 +45,14 @@
     "service_id": "srv-d7e3kareo5us738179e0",
     "project_name": "convertisseur-de-normes-electriques-et-reglements-1",
     "requested_project_name": null,
-    "deployment_id": "dep-d7u79msm0tmc73b6qld0",
+    "deployment_id": "dep-d8136v50lvsc73ah3720",
     "deployment_url": "https://convertisseur-de-normes-electriques-et.onrender.com",
     "public_url": "https://convertisseur-de-normes-electriques-et.onrender.com",
     "expected_public_url": "https://convertisseur-de-normes-electriques-et.onrender.com",
     "dashboard_url": "https://dashboard.render.com/static/srv-d7e3kareo5us738179e0",
     "ready_state": "live",
     "target": "production",
-    "updated_at": 1778152579,
-    "requested_public_url": "https://convertisseur-de-normes-electriques-et.onrender.com",
-    "url_source": "alias"
+    "updated_at": 1778529062
   },
   "qa": {
     "status": "pass",
@@ -299,5 +297,7 @@
     "opportunity_label": "Warming up",
     "opportunity_detail": "97 ref domains · shared-host: DR/AR смотри осторожно."
   },
-  "requested_url": "https://convertisseur-de-normes-electriques-et.onrender.com"
+  "requested_url": "https://convertisseur-de-normes-electriques-et.onrender.com",
+  "updated": "2026-05-11T19:51:02.532271+00:00",
+  "open_links_republished_at": "2026-05-11T19:51:02.532296+00:00"
 }
