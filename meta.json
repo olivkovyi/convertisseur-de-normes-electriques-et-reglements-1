@@ -9,13 +9,13 @@
   "page_blueprint": "imported-source",
   "language": "fr",
   "country": "FR",
-  "url": null,
-  "expected_url": "https://convertisseur-de-normes-electriques-et-reglements-1.onrender.com",
+  "url": "https://convertisseur-de-normes-electriques-et.onrender.com",
+  "expected_url": "https://convertisseur-de-normes-electriques-et.onrender.com",
   "created": "2026-05-07T11:15:43.632661+00:00",
   "owner_user_id": "user-1774822953462",
   "owner_username": "admin",
   "owner_display_name": "Administrator",
-  "status": "generated",
+  "status": "deployed",
   "run_id": "run-1778152460758",
   "publish_target": "render",
   "mode": "production",
@@ -34,13 +34,182 @@
     ]
   },
   "github": {
-    "status": "pending"
+    "status": "published",
+    "repo_name": "convertisseur-de-normes-electriques-et-reglements-1",
+    "repo_url": "https://github.com/olivkovyi/convertisseur-de-normes-electriques-et-reglements-1",
+    "updated_at": 1778152560
   },
   "deployment": {
-    "status": "pending"
+    "status": "ready",
+    "provider": "render",
+    "service_id": "srv-d7e3kareo5us738179e0",
+    "project_name": "convertisseur-de-normes-electriques-et-reglements-1",
+    "requested_project_name": null,
+    "deployment_id": "dep-d7u79msm0tmc73b6qld0",
+    "deployment_url": "https://convertisseur-de-normes-electriques-et.onrender.com",
+    "public_url": "https://convertisseur-de-normes-electriques-et.onrender.com",
+    "expected_public_url": "https://convertisseur-de-normes-electriques-et.onrender.com",
+    "dashboard_url": "https://dashboard.render.com/static/srv-d7e3kareo5us738179e0",
+    "ready_state": "live",
+    "target": "production",
+    "updated_at": 1778152579,
+    "requested_public_url": "https://convertisseur-de-normes-electriques-et.onrender.com",
+    "url_source": "alias"
   },
   "qa": {
-    "status": "pending"
+    "status": "pass",
+    "local": {
+      "status": "pass",
+      "checks": [
+        {
+          "name": "index_exists",
+          "status": "pass",
+          "detail": "index.html exists"
+        },
+        {
+          "name": "meta_exists",
+          "status": "pass",
+          "detail": "meta.json exists"
+        },
+        {
+          "name": "robots_exists",
+          "status": "pass",
+          "detail": "robots.txt exists"
+        },
+        {
+          "name": "has_title",
+          "status": "pass",
+          "detail": "HTML contains a title tag"
+        },
+        {
+          "name": "has_viewport",
+          "status": "pass",
+          "detail": "HTML contains a mobile viewport meta tag"
+        },
+        {
+          "name": "has_canonical",
+          "status": "pass",
+          "detail": "HTML contains a canonical URL"
+        },
+        {
+          "name": "bundle_size",
+          "status": "pass",
+          "detail": "Generated HTML stays below 250KB"
+        },
+        {
+          "name": "functional_qa_hook",
+          "status": "pass",
+          "detail": "Generated HTML includes the browser QA hook used before deploy."
+        },
+        {
+          "name": "inline_script_syntax",
+          "status": "pass",
+          "detail": "Inline JavaScript syntax check passed."
+        },
+        {
+          "name": "robots_google_only",
+          "status": "pass",
+          "detail": "robots.txt allows only Google crawlers and blocks all other bots."
+        },
+        {
+          "name": "no_meta_noindex",
+          "status": "pass",
+          "detail": "Generated HTML does not inject a noindex robots meta tag."
+        },
+        {
+          "name": "no_internal_branding",
+          "status": "pass",
+          "detail": "Generated site does not leak internal platform branding or internal product naming."
+        },
+        {
+          "name": "desktop_layout_overlap",
+          "status": "pass",
+          "detail": "Editorial desktop layout avoids negative overlap offsets on the tool panel"
+        }
+      ],
+      "checked_at": 1778152579
+    },
+    "functional": {
+      "status": "pass",
+      "detail": "desktop: Le formulaire natif a mis a jour la zone de resultat. | mobile: Le formulaire natif a mis a jour la zone de resultat.",
+      "target_url": "http://127.0.0.1:40691/index.html?__qa=functional",
+      "mode": "native-form",
+      "headline": "Résultats de la Comparaison des Normes",
+      "primary_url": "#",
+      "desktop": {
+        "status": "pass",
+        "detail": "Le formulaire natif a mis a jour la zone de resultat.",
+        "target_url": "http://127.0.0.1:40691/index.html?__qa=functional",
+        "viewport": "desktop",
+        "mode": "native-form",
+        "headline": "Résultats de la Comparaison des Normes",
+        "primary_url": "#",
+        "reported_viewport": "desktop",
+        "updated_at": 1778152580
+      },
+      "mobile": {
+        "status": "pass",
+        "detail": "Le formulaire natif a mis a jour la zone de resultat.",
+        "target_url": "http://127.0.0.1:40691/index.html?__qa=functional",
+        "viewport": "mobile",
+        "mode": "native-form",
+        "headline": "Résultats de la Comparaison des Normes",
+        "primary_url": "#",
+        "reported_viewport": "mobile",
+        "updated_at": 1778152581
+      },
+      "updated_at": 1778152581
+    },
+    "remote": {
+      "status": "pass",
+      "checks": [
+        {
+          "name": "remote_200",
+          "status": "pass",
+          "detail": "Remote deployment returned HTTP 200"
+        },
+        {
+          "name": "remote_title",
+          "status": "pass",
+          "detail": "Remote HTML contains a title tag"
+        },
+        {
+          "name": "remote_body",
+          "status": "pass",
+          "detail": "Remote HTML contains a body tag"
+        }
+      ],
+      "checked_at": 1778152581
+    },
+    "visual": {
+      "status": "pass",
+      "desktop": {
+        "status": "pass",
+        "path": "/var/lib/utility-site-studio/static/generated-qa/convertisseur-de-normes-electriques-et-reglements-1/convertisseur-de-normes-electriques-et-reglements-1-desktop.png",
+        "detail": "1440x960 screenshot captured.",
+        "relative_url": "/static/generated-qa/convertisseur-de-normes-electriques-et-reglements-1/convertisseur-de-normes-electriques-et-reglements-1-desktop.png"
+      },
+      "mobile": {
+        "status": "pass",
+        "path": "/var/lib/utility-site-studio/static/generated-qa/convertisseur-de-normes-electriques-et-reglements-1/convertisseur-de-normes-electriques-et-reglements-1-mobile.png",
+        "detail": "430x932 screenshot captured.",
+        "relative_url": "/static/generated-qa/convertisseur-de-normes-electriques-et-reglements-1/convertisseur-de-normes-electriques-et-reglements-1-mobile.png"
+      },
+      "updated_at": 1778152583
+    },
+    "lighthouse": {
+      "status": "pass",
+      "scores": {
+        "performance": 100,
+        "accessibility": 94,
+        "best-practices": 96,
+        "seo": 100
+      },
+      "report_path": "/var/lib/utility-site-studio/data/qa/lighthouse/convertisseur-de-normes-electriques-et-reglements-1-lighthouse.json",
+      "updated_at": 1778152596
+    },
+    "qa_live_url": "https://convertisseur-de-normes-electriques-et.onrender.com",
+    "updated_at": "2026-05-07T11:16:36.565617+00:00"
   },
   "features": [
     "Imported from ready static files",
@@ -130,187 +299,5 @@
     "opportunity_label": "Warming up",
     "opportunity_detail": "97 ref domains · shared-host: DR/AR смотри осторожно."
   },
-  "previous_live_state": {
-    "url": "https://convertisseur-de-normes-electriques-et.onrender.com",
-    "expected_url": "https://convertisseur-de-normes-electriques-et.onrender.com",
-    "requested_url": "https://convertisseur-de-normes-electriques-et.onrender.com",
-    "github": {
-      "status": "published",
-      "repo_name": "convertisseur-de-normes-electriques-et-reglements-1",
-      "repo_url": "https://github.com/olivkovyi/convertisseur-de-normes-electriques-et-reglements-1",
-      "updated_at": 1778151733
-    },
-    "deployment": {
-      "status": "ready",
-      "provider": "render",
-      "service_id": "srv-d7e3kareo5us738179e0",
-      "project_name": "convertisseur-de-normes-electriques-et-reglements-1",
-      "requested_project_name": null,
-      "deployment_id": "dep-d7u7385ckfvc73emu4og",
-      "deployment_url": "https://convertisseur-de-normes-electriques-et.onrender.com",
-      "public_url": "https://convertisseur-de-normes-electriques-et.onrender.com",
-      "expected_public_url": "https://convertisseur-de-normes-electriques-et.onrender.com",
-      "dashboard_url": "https://dashboard.render.com/static/srv-d7e3kareo5us738179e0",
-      "ready_state": "live",
-      "target": "production",
-      "updated_at": 1778151751,
-      "requested_public_url": "https://convertisseur-de-normes-electriques-et.onrender.com",
-      "url_source": "alias"
-    },
-    "qa": {
-      "status": "pass",
-      "local": {
-        "status": "pass",
-        "checks": [
-          {
-            "name": "index_exists",
-            "status": "pass",
-            "detail": "index.html exists"
-          },
-          {
-            "name": "meta_exists",
-            "status": "pass",
-            "detail": "meta.json exists"
-          },
-          {
-            "name": "robots_exists",
-            "status": "pass",
-            "detail": "robots.txt exists"
-          },
-          {
-            "name": "has_title",
-            "status": "pass",
-            "detail": "HTML contains a title tag"
-          },
-          {
-            "name": "has_viewport",
-            "status": "pass",
-            "detail": "HTML contains a mobile viewport meta tag"
-          },
-          {
-            "name": "has_canonical",
-            "status": "pass",
-            "detail": "HTML contains a canonical URL"
-          },
-          {
-            "name": "bundle_size",
-            "status": "pass",
-            "detail": "Generated HTML stays below 250KB"
-          },
-          {
-            "name": "functional_qa_hook",
-            "status": "pass",
-            "detail": "Generated HTML includes the browser QA hook used before deploy."
-          },
-          {
-            "name": "inline_script_syntax",
-            "status": "pass",
-            "detail": "Inline JavaScript syntax check passed."
-          },
-          {
-            "name": "robots_google_only",
-            "status": "pass",
-            "detail": "robots.txt allows only Google crawlers and blocks all other bots."
-          },
-          {
-            "name": "no_meta_noindex",
-            "status": "pass",
-            "detail": "Generated HTML does not inject a noindex robots meta tag."
-          },
-          {
-            "name": "no_internal_branding",
-            "status": "pass",
-            "detail": "Generated site does not leak internal platform branding or internal product naming."
-          },
-          {
-            "name": "desktop_layout_overlap",
-            "status": "pass",
-            "detail": "Editorial desktop layout avoids negative overlap offsets on the tool panel"
-          }
-        ],
-        "checked_at": 1778152443
-      },
-      "functional": {
-        "status": "pass",
-        "detail": "desktop: Le formulaire natif a mis a jour la zone de resultat. | mobile: Le formulaire natif a mis a jour la zone de resultat.",
-        "target_url": "http://127.0.0.1:44595/index.html?__qa=functional",
-        "mode": "native-form",
-        "headline": "Résultats de la Comparaison des Normes",
-        "primary_url": "#",
-        "desktop": {
-          "status": "pass",
-          "detail": "Le formulaire natif a mis a jour la zone de resultat.",
-          "target_url": "http://127.0.0.1:44595/index.html?__qa=functional",
-          "viewport": "desktop",
-          "mode": "native-form",
-          "headline": "Résultats de la Comparaison des Normes",
-          "primary_url": "#",
-          "reported_viewport": "desktop",
-          "updated_at": 1778152444
-        },
-        "mobile": {
-          "status": "pass",
-          "detail": "Le formulaire natif a mis a jour la zone de resultat.",
-          "target_url": "http://127.0.0.1:44595/index.html?__qa=functional",
-          "viewport": "mobile",
-          "mode": "native-form",
-          "headline": "Résultats de la Comparaison des Normes",
-          "primary_url": "#",
-          "reported_viewport": "mobile",
-          "updated_at": 1778152444
-        },
-        "updated_at": 1778152445
-      },
-      "remote": {
-        "status": "pass",
-        "checks": [
-          {
-            "name": "remote_200",
-            "status": "pass",
-            "detail": "Remote deployment returned HTTP 200"
-          },
-          {
-            "name": "remote_title",
-            "status": "pass",
-            "detail": "Remote HTML contains a title tag"
-          },
-          {
-            "name": "remote_body",
-            "status": "pass",
-            "detail": "Remote HTML contains a body tag"
-          }
-        ],
-        "checked_at": 1778152445
-      },
-      "visual": {
-        "status": "pass",
-        "desktop": {
-          "status": "pass",
-          "path": "/var/lib/utility-site-studio/static/generated-qa/convertisseur-de-normes-electriques-et-reglements-1/convertisseur-de-normes-electriques-et-reglements-1-desktop.png",
-          "detail": "1440x960 screenshot captured.",
-          "relative_url": "/static/generated-qa/convertisseur-de-normes-electriques-et-reglements-1/convertisseur-de-normes-electriques-et-reglements-1-desktop.png"
-        },
-        "mobile": {
-          "status": "pass",
-          "path": "/var/lib/utility-site-studio/static/generated-qa/convertisseur-de-normes-electriques-et-reglements-1/convertisseur-de-normes-electriques-et-reglements-1-mobile.png",
-          "detail": "430x932 screenshot captured.",
-          "relative_url": "/static/generated-qa/convertisseur-de-normes-electriques-et-reglements-1/convertisseur-de-normes-electriques-et-reglements-1-mobile.png"
-        },
-        "updated_at": 1778152447
-      },
-      "lighthouse": {
-        "status": "pass",
-        "scores": {
-          "performance": 100,
-          "accessibility": 94,
-          "best-practices": 96,
-          "seo": 100
-        },
-        "report_path": "/var/lib/utility-site-studio/data/qa/lighthouse/convertisseur-de-normes-electriques-et-reglements-1-lighthouse.json",
-        "updated_at": 1778152460
-      },
-      "qa_live_url": "https://convertisseur-de-normes-electriques-et.onrender.com",
-      "updated_at": "2026-05-07T11:14:20.615617+00:00"
-    }
-  }
+  "requested_url": "https://convertisseur-de-normes-electriques-et.onrender.com"
 }
